@@ -2,7 +2,7 @@
 
 # Table of contents
 
-1. [Project Description](Project_Description)
+1. [Project Description](##Project_Description)
 2. [Installation](Installation)
 3. [Usage](Usage)
 4. [License](License)
