@@ -10,12 +10,12 @@ inquirer
     },
 
     {
-      type: "editor",
+      type: "input",
       message: "Describe your project",
       name: "description",
     },
     {
-      type: "editor",
+      type: "input",
       message: "Specify any installation instructions",
       name: "install",
       default: "No installation instructions",
@@ -24,6 +24,32 @@ inquirer
       type: "editor",
       message: "Describe the end user experience",
       name: "usage",
+    },
+    {
+      type: "list",
+      message: "Specify license",
+      name: "license",
+      choices: [
+        "Apache",
+        "Creative_Commons",
+        "Eclipse",
+        "GNUv3",
+        "IBM",
+        "MIT",
+        "Mozilla",
+      ],
+    },
+
+    {
+      type: "input",
+      message: "How should users contribute to this process?",
+      name: "contribution",
+    },
+
+    {
+      type: "input",
+      message: "How should users conduct unit testing?",
+      name: "testing",
     },
 
     {
@@ -39,7 +65,10 @@ inquirer
   ])
   .then((data) => {
     const filename = `${data.name.toLowerCase().split("").join("")}.MD`;
-    const fileContent = `# ${data.name}
+
+    const fileContent = `
+    
+# ${data.name}
 
 ## Table of contents
 
@@ -51,27 +80,40 @@ inquirer
 6. [Tests](#Tests)
 7. [Questions](#Questions)
 
+
 ## Project Description
-${data.description}
+### ${data.description}
+
 
 ## Installation Instructions
-${data.install}
+### ${data.install}
+
 
 ## Usage
-${data.usage}
+### ${data.usage}
+
 
 ## License
 
+### ${data.license}   ![${data.license}](./assets/${data.license}.svg)
+
+
 ## Contribution
+
+### ${data.contribution}
+
 
 ## Tests
 
+### ${data.testing}
+
+
 ## Questions
-Got questions, or are interested in collaborating? 
+### Got questions, or are interested in collaborating? 
 
-Github:https://github.com/${data.Github}
+### Github:https://github.com/${data.Github}
 
-Email: ${data.email}`;
+### Email: ${data.email}`;
 
     fs.writeFile(filename, fileContent, (err) =>
       err ? console.log("Try Again") : console.log("Good Job")
