@@ -64,7 +64,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const filename = `${data.name.toLowerCase().split("").join("")}.MD`;
+    const filename = `${data.name}.MD`;
 
     const fileContent = `
     
@@ -82,38 +82,38 @@ inquirer
 
 
 ## Project Description
-### ${data.description}
+${data.description}
 
 
 ## Installation Instructions
-### ${data.install}
+${data.install}
 
 
 ## Usage
-### ${data.usage}
+${data.usage}
 
 
 ## License
 
-### ${data.license}   ![${data.license}](./assets/${data.license}.svg)
+${data.license}   ![${data.license}](./assets/${data.license}.svg)
 
 
 ## Contribution
 
-### ${data.contribution}
+${data.contribution}
 
 
 ## Tests
 
-### ${data.testing}
+${data.testing}
 
 
 ## Questions
-### Got questions, or are interested in collaborating? 
+Got questions, or are interested in collaborating? 
 
-### Github:https://github.com/${data.Github}
+Github:https://github.com/${data.Github}
 
-### Email: ${data.email}`;
+Email: ${data.email}`;
 
     fs.writeFile(filename, fileContent, (err) =>
       err ? console.log("Try Again") : console.log("Good Job")
