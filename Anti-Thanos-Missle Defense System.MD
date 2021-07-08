@@ -14,7 +14,7 @@
 
 
 ## Project Description
-Augmenting the Avengers intitiative against 
+Augmenting the Avengers intitiative against the dreaded Thanos.
 
 
 ## Installation Instructions
