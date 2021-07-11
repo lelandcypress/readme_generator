@@ -64,7 +64,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const filename = `README.MD`;
+    const filename = `ExampleREADME.MD`;
 
     const fileContent = `
     
