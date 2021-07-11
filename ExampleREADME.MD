@@ -1,11 +1,11 @@
 
     
-# Example MD
+# Sample Markdown
 
 ## Table of contents
 
-1. [Project Description](#Project Description)
-2. [Installation](#Installation Instructions)
+1. [Description](#Description)
+2. [Installation](#Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
 5. [Contribution](#Contribution)
@@ -13,12 +13,12 @@
 7. [Questions](#Questions)
 
 
-## Project Description
-Using Inquirer.JS to build a sample README
+## Description
+I'm using Iquirer to build out great READMEs
 
 
-## Installation Instructions
-No installation instructions
+## Installation
+Just run from Node.js
 
 
 ## Usage
@@ -33,26 +33,24 @@ Cras dui arcu, elementum in lobortis eget, laoreet vitae odio. Donec non enim eu
 Cras sed convallis sem, vel dapibus nunc. Integer facilisis maximus lacus sit amet vestibulum. Donec diam augue, condimentum sed posuere in, dapibus sed diam. Morbi fringilla a lorem id posuere. Duis semper eros id lacinia consectetur. Donec elementum massa a aliquet condimentum. Suspendisse quis neque malesuada, ultricies ante sit amet, efficitur urna. Phasellus fermentum, tortor id ultrices pellentesque, ex nisi elementum tortor, nec tempus metus nunc eget arcu. Nam et massa at turpis porta aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Morbi viverra turpis posuere dictum pulvinar. Proin vitae luctus lorem, et convallis orci.
 
 
-
-
 ## License
 
-Apache   ![Apache](./assets/Apache.svg)
+MIT   ![MIT](./assets/MIT.svg)
 
 
 ## Contribution
 
-No testing needed
+Any suggestions are always welcome
 
 
 ## Tests
 
-Submit PRs and JIRA Tickets
+Fork,PR and email me
 
 
 ## Questions
 Got questions, or are interested in collaborating? 
 
-Github:https://github.com/loremipsum
+Github:https://github.com/foohelloworldlorem
 
-Email: someguy@ipsum.com
+Email: noreply@ipsum.com

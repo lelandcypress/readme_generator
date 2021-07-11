@@ -72,8 +72,8 @@ inquirer
 
 ## Table of contents
 
-1. [Project Description](#Project Description)
-2. [Installation](#Installation Instructions)
+1. [Description](#Description)
+2. [Installation](#Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
 5. [Contribution](#Contribution)
@@ -81,11 +81,11 @@ inquirer
 7. [Questions](#Questions)
 
 
-## Project Description
+## Description
 ${data.description}
 
 
-## Installation Instructions
+## Installation
 ${data.install}
 
 
