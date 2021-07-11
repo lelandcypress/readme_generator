@@ -1,11 +1,11 @@
 
     
-# Example Project
+# Example MD
 
 ## Table of contents
 
-1. [Project Description](#Project_Description)
-2. [Installation](#Installation_Instructions)
+1. [Project Description](#Project Description)
+2. [Installation](#Installation Instructions)
 3. [Usage](#Usage)
 4. [License](#License)
 5. [Contribution](#Contribution)
@@ -14,7 +14,7 @@
 
 
 ## Project Description
-I am using inquirer to build out a sample ReadMe.MD
+Using Inquirer.JS to build a sample README
 
 
 ## Installation Instructions
@@ -33,6 +33,8 @@ Cras dui arcu, elementum in lobortis eget, laoreet vitae odio. Donec non enim eu
 Cras sed convallis sem, vel dapibus nunc. Integer facilisis maximus lacus sit amet vestibulum. Donec diam augue, condimentum sed posuere in, dapibus sed diam. Morbi fringilla a lorem id posuere. Duis semper eros id lacinia consectetur. Donec elementum massa a aliquet condimentum. Suspendisse quis neque malesuada, ultricies ante sit amet, efficitur urna. Phasellus fermentum, tortor id ultrices pellentesque, ex nisi elementum tortor, nec tempus metus nunc eget arcu. Nam et massa at turpis porta aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Morbi viverra turpis posuere dictum pulvinar. Proin vitae luctus lorem, et convallis orci.
 
 
+
+
 ## License
 
 Apache   ![Apache](./assets/Apache.svg)
@@ -40,17 +42,17 @@ Apache   ![Apache](./assets/Apache.svg)
 
 ## Contribution
 
-Fork and PR
+No testing needed
 
 
 ## Tests
 
-No testing required
+Submit PRs and JIRA Tickets
 
 
 ## Questions
 Got questions, or are interested in collaborating? 
 
-Github:https://github.com/loremipsumhelloworldfoo
+Github:https://github.com/loremipsum
 
-Email: someguy@lorem.com
+Email: someguy@ipsum.com
