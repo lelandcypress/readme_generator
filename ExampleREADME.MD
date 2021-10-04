@@ -1,6 +1,6 @@
 
     
-# Sample Markdown
+# Progressive_Budget
 
 ## Table of contents
 
@@ -14,23 +14,20 @@
 
 
 ## Description
-I'm using Iquirer to build out great READMEs
+Bad Guy Budgetting: Do you need a convenient way to manage your ill gotten gains? Even without internet connectios? Well look no further, using JavaScript, Mongo, and IndexDB, this Progressive Web App will help you track the evilest of heists.
 
 
 ## Installation
-Just run from Node.js
+No installation instructions
 
 
 ## Usage
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem neque, euismod in velit vel, dapibus luctus magna. Donec commodo dui vel urna sagittis fermentum. Vivamus id mi sit amet erat consectetur mattis. Sed interdum dignissim ipsum, et ultricies odio euismod non. Aliquam tincidunt ex molestie, pretium ante ac, pulvinar est. Ut pellentesque vel orci eget aliquet. Ut id quam placerat, semper purus quis, dapibus dolor. Phasellus vestibulum nibh massa, ac convallis felis vulputate eu. Vivamus ac massa ut mi congue facilisis. Aenean fringilla sapien lorem, ut fringilla lacus auctor non.
-
-Aliquam erat volutpat. Aliquam erat est, viverra quis semper ac, laoreet id velit. Maecenas laoreet in tortor quis fermentum. Maecenas porttitor nulla non neque gravida viverra. Donec congue tellus eu ultrices ultricies. In et leo odio. Sed sed ante at libero efficitur eleifend at in nibh. Phasellus sapien risus, porttitor eu iaculis at, viverra non risus.
-
-Curabitur orci dui, congue vel lectus eget, consectetur interdum nibh. Cras volutpat venenatis aliquet. Vestibulum at ligula non ex dapibus congue. Quisque placerat tellus sed mauris lobortis condimentum. Suspendisse felis ligula, ultrices id commodo eu, mattis maximus neque. Fusce vel enim vitae ligula feugiat semper. Vestibulum pulvinar finibus lectus vel suscipit.
-
-Cras dui arcu, elementum in lobortis eget, laoreet vitae odio. Donec non enim eu tortor fermentum hendrerit id ac tortor. Morbi consequat augue et egestas consequat. Nam finibus consectetur lectus, eget ultricies ante accumsan at. Curabitur viverra vehicula ligula. Fusce feugiat ullamcorper ligula. Morbi et ex scelerisque metus cursus euismod.
-
-Cras sed convallis sem, vel dapibus nunc. Integer facilisis maximus lacus sit amet vestibulum. Donec diam augue, condimentum sed posuere in, dapibus sed diam. Morbi fringilla a lorem id posuere. Duis semper eros id lacinia consectetur. Donec elementum massa a aliquet condimentum. Suspendisse quis neque malesuada, ultricies ante sit amet, efficitur urna. Phasellus fermentum, tortor id ultrices pellentesque, ex nisi elementum tortor, nec tempus metus nunc eget arcu. Nam et massa at turpis porta aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Morbi viverra turpis posuere dictum pulvinar. Proin vitae luctus lorem, et convallis orci.
+1.Ensure you run NPM I before undertaking any endeavors 
+2.Run Node Index.js from CLI if you have forked this repository. If running from Heroku, just enjoy the app.
+3. Simply enter the name of the transaction, transaction amount, and indicate if it was a gain or loss.
+4. Observe the transaction being logged and the chart being updated. 
+5. If you run offline mode in your browser you will be able to continue maitaining your transactions.
+6. Once online capabilities restored. MongoDB will be updated accordingly.
 
 
 ## License
@@ -40,17 +37,17 @@ MIT   ![MIT](./assets/MIT.svg)
 
 ## Contribution
 
-Any suggestions are always welcome
+Fork and develop as you see fit. Feedback is always appreciated.
 
 
 ## Tests
 
-Fork,PR and email me
+No testing needed.
 
 
 ## Questions
 Got questions, or are interested in collaborating? 
 
-Github:https://github.com/foohelloworldlorem
+Github:https://github.com/lelandcypress
 
-Email: noreply@ipsum.com
+Email: souterm1@gmail.com
