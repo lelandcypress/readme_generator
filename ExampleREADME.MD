@@ -14,7 +14,7 @@
 
 
 ## Description
-Bad Guy Budgetting: Do you need a convenient way to manage your ill gotten gains? Even without internet connectios? Well look no further, using JavaScript, Mongo, and IndexDB, this Progressive Web App will help you track the evilest of heists.
+Bad Guy Budgetting: Do you need a convenient way to manage your ill gotten gains? Even without internet connection? Well look no further, using JavaScript, Mongo, and IndexDB, this Progressive Web App will help you track the evilest of heists.
 
 
 ## Installation
